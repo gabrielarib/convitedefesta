@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Peralta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+body {
+    font-size: 100%;
+    background: #100F0D;
+}
+
+header{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 24px; */
+    height: 70px; 
+    border-bottom: 0.1px solid #ef770e46;
+    position: sticky;
+    top: 5px;
+    background-color: #100F0D;
+}
+
+
+.header-palhaco, .header-abobora{
+    height: 60px;
+}
+
+.header-titulo{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Peralta', cursive;
+}
+
+.canto-aranha{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    height: 240px;
+}
+
+main{
+    /* border: 1px solid green; */
+    /* height: 768px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-img1,  .main-img2{
+    margin-top: 40px;
+    height: auto;
+}
+
+
+.main-conteudo{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+
+.main-conteudo-titulo{
+    width: auto;
+}
+
+.main-conteudo-subtitulo{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    word-spacing:-5px;
+    margin-top: -30px;
+    letter-spacing: -1px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.main-conteudo-botoes{
+    margin-top: 5%;
+    /* border: 1px solid orangered; */
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    width: auto;
+}
+
+.sessao1{
+    /* border: 1px solid green; */
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.sessao2{
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao1 p, .sessao2 p{
+    background: #EF760E;
+    color: black;
+    width: 230px;
+    padding: 5px;
+    font-size: 30px;
+    margin: 2px 2px 10px 2px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Peralta', cursive;
+}
+
+.botao{
+    background: #EF760E;
+    width: auto;
+    padding: 5px;
+    font-size: 30px;
+    margin: 2px 2px 10px 2px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background: #ef770ead;
+}
+
+footer{
+    background: #38210c13;
+    height: 55px;
+}
