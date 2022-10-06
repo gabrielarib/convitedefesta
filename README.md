@@ -5,5 +5,5 @@ O design foi criado com o Canva e os elementos visuais são todos do site.
 <img src="site.png">
 
 O site pode ser acessado clicando no link abaixo:<br>
-<a target="_blank" href="https://gabrielarib.github.io/convitedefesta/">Convite de Halloween</a>
+<a href="https://gabrielarib.github.io/convitedefesta/">Convite de Halloween</a>
 
